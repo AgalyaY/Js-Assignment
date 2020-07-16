@@ -42,26 +42,26 @@ let mark = prompt("Enter your mark :)",0);
         grade = "F";
     }
 
-switch (grade) {
-    case "O":
-        console.log(`Your mark is ${mark} and the grade is "O" :).`);        
-        break;
-    case "A+":
-        console.log(`Your mark is ${mark} and the grade is "A+".`);        
-        break;
-    case "A":
-        console.log(`Your mark is ${mark} and the grade is "A".`);        
-        break;        
-    case "B+":
-        console.log(`Your mark is ${mark} and the grade is "B+".`);        
-        break;
-    case "B":
-        console.log(`Your mark is ${mark} and the grade is "B".`);        
-        break;
-    default:
-        console.log(`Sorry, Your mark is ${mark} and the grade is "F"(Fail).Please work hard :(`);
-        break;
-}
+    switch (grade) {
+        case "O":
+            console.log(`Your mark is ${mark} and the grade is "O" :).`);        
+            break;
+        case "A+":
+            console.log(`Your mark is ${mark} and the grade is "A+".`);        
+            break;
+        case "A":
+            console.log(`Your mark is ${mark} and the grade is "A".`);        
+            break;        
+        case "B+":
+            console.log(`Your mark is ${mark} and the grade is "B+".`);        
+            break;
+        case "B":
+            console.log(`Your mark is ${mark} and the grade is "B".`);        
+            break;
+        default:
+            console.log(`Sorry, Your mark is ${mark} and the grade is "F"(Fail).Please work hard :(`);
+            break;
+    }
  
 //using ternary operator
 
