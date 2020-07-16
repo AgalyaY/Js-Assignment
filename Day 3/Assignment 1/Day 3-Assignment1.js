@@ -1,6 +1,6 @@
-let number = prompt("Enter a number:)",0);
+let number = prompt("Enter a number :)",0);
 function check(number){
-    if(number%2==0){
+    if(number % 2 == 0){
         result = "Even";
         return result;
     }
