@@ -12,7 +12,7 @@ getUserAsync().then(data => {
         if(data[key].completed){
             console.log(data[key]);
         }
-    
+    }
   }
 });
 
