@@ -1,5 +1,8 @@
-let num = Number(prompt("Enter a number :)",0));
-console.log("The number you entered is : "+num);
-for(let i=1;i<=10;i++){
-    console.log(i+" * "+num+  " = " + num*i);
+function printTable(){
+    let num = document.getElementById("mynum").value;
+    for (let i = 1 ; i < 11 ; i++) {
+        var result= '';       
+        result += num + "x" + i + "=" + num*i;
+    }
+    document.getElementById("multiply").innerHTML =result;
 }
