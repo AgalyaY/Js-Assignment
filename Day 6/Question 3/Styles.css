@@ -1,0 +1,25 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+  }
+  
+.dark-mode {
+    background-color: Black;
+    color: white;
+    font-family: cursive;
+}
+
+#time{
+    position:absolute;
+    bottom:0;
+    right:475;
+    font-size: 30px;
+}
+
+#time-text{
+    position:absolute;
+    bottom:0;
+    right:650;
+    font-size: 30px;
+}
